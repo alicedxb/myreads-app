@@ -11,6 +11,12 @@ const Search = ({ searchBooks, searchResults = [], updateBook, clearResults, loa
 	return (
 		// Used to perform search
 		<div className="search-books">
+		{/*
+                  NOTES: The search from BooksAPI is limited to a particular set of search terms.
+                  You can find these search terms here:
+                  https://github.com/udacity/reactnd-project-myreads-starter/blob/master/SEARCH_TERMS.md
+                  However, remember that the BooksAPI.search method DOES search by title or author.
+                */}
 			<div className="search-books-bar">
 				<Link to="/" className="close-search" onClick={clearResults}>Close</Link>
 				<div className="search-books-input-wrapper">
