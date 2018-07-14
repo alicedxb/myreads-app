@@ -6,14 +6,16 @@ This project is part of the Udacity FEND course, and functions as a bookshelf ap
 ## To start the app
 
 To download the project, follow the instructions below:
-
-`git clone https://github.com/alicedxb/myreads-app`
-`cd myreads-app`
+```bash 
+git clone https://github.com/alicedxb/myreads-app
+cd myreads-app
+```
 
 Then install dependencies and run:
-
-`npm install`
-`npm run start`
+```bash
+npm install
+npm run start
+```
 
 ## Contents
 ```bash
@@ -27,7 +29,7 @@ Then install dependencies and run:
 └── src
     ├── AddBook.js # Component to access search functionality.
     ├── App.css # Styles for the app. 
-    ├── App.js # Root of your app. 
+    ├── App.js # Root of the app. 
     ├── App.test.js # Used for testing. 
     ├── Book.js # Component to represent a book.
     ├── BooksAPI.js # A JavaScript API for the provided Udacity backend. 
