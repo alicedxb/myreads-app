@@ -3,7 +3,6 @@ import './App.css';
 
 // Represents a book
 const Book = ({ infos, updateBook }) => {
-	// Represents an individual book's information
 	const book = infos;
 
 	return (
@@ -14,7 +13,6 @@ const Book = ({ infos, updateBook }) => {
                                  height: 193, 
                                  backgroundImage: `url("${book.imageLinks.smallThumbnail}")` }}>
                 </div>
-		                // Allows change to status
 				<div className="book-shelf-changer">
 					<select value={book.shelf} onChange={(e) => updateBook(book, e.target.value)}>
 						<option value="none" disabled>Move to...</option>
