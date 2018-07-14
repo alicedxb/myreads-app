@@ -9,21 +9,13 @@ const Search = ({ searchBooks, searchResults = [], updateBook, clearResults, loa
 	const results = searchResults;
 
 	return (
-		// Used to perform search
 		<div className="search-books">
-		{/*
-                  NOTES: The search from BooksAPI is limited to a particular set of search terms.
-                  You can find these search terms here:
-                  https://github.com/udacity/reactnd-project-myreads-starter/blob/master/SEARCH_TERMS.md
-                  However, remember that the BooksAPI.search method DOES search by title or author.
-                */}
 			<div className="search-books-bar">
 				<Link to="/" className="close-search" onClick={clearResults}>Close</Link>
 				<div className="search-books-input-wrapper">
 					<input autoFocus="true" type="text" placeholder="Search by title or author" onChange={searchBooks} />
 				</div>
 			</div>
-		        // Results of a search
 			<div className="search-books-results">
 				<ol className="books-grid">
 					<Loader loaded={loaded}></Loader>
