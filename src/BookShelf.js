@@ -11,7 +11,6 @@ const BookShelf = ({ shelf, updateBook }) => {
 			<div>
 				<div className="bookshelf">
 					<h2 className="bookshelf-title">{title}</h2>
-		                        // Allows update 
 					<div className="bookshelf-books">
 						<BooksGrid books={books} updateBook={updateBook} />
 					</div>
