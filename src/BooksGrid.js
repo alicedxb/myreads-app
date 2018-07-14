@@ -2,6 +2,7 @@ import React from 'react';
 import Book from './Book';
 import './App.css';
 
+// Grid pattern that lists the books on the shelves
 const BooksGrid = ({ books, updateBook }) => {
 	return (
         <ol className="books-grid">
