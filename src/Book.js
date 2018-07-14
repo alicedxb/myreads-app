@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
 
+// Represents a book
 const Book = ({ infos, updateBook }) => {
+	// Represents an individual book's information
 	const book = infos;
 
 	return (
