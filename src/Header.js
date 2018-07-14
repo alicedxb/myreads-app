@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 
+// Represents the application header
 const Header = () => {
 	return (
 		<div className="list-books">
