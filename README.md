@@ -47,7 +47,7 @@ npm run start
 
 ## Sources
 ```bash
-React Up and Running, Stoyan Stefanov
-A Step-by-Step Tutorial for Developing a Progressive Web App With React.js, https://dzone.com/articles/a-step-by-step-tutorial-for-developing-a-progressi
-Building an App in React Tutorial, https://www.youtube.com/watch?v=KrOXu-veBQ4
+- React Up and Running, Stoyan Stefanov
+- A Step-by-Step Tutorial for Developing a Progressive Web App With React.js, https://dzone.com/articles/a-step-by-step-tutorial-for-developing-a-progressi
+- Building an App in React Tutorial, https://www.youtube.com/watch?v=KrOXu-veBQ4
 ```
